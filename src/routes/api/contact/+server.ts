@@ -26,11 +26,9 @@ export const POST: RequestHandler = async ({ request }) => {
 		const subjectLine = subjectMap[subject] || 'Website Contact Form';
 
 		// Send email to you
-		// NOTE: Change 'from' to your verified domain once set up in Resend
-		// For now using Resend's default sender which works without domain verification
 		const { error } = await resend.emails.send({
-			from: 'Teller Technologies <onboarding@resend.dev>',
-			to: ['17jaredt17@gmail.com'],
+			from: 'Teller Technologies <noreply@tellertechnologies.io>',
+			to: ['contact@tellertechnologies.io'],
 			replyTo: email,
 			subject: `${subjectLine} from ${name}`,
 			html: `
