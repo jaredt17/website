@@ -22,7 +22,7 @@
 			<!-- Logo -->
 			<a href="/" class="flex items-center gap-3 group">
 				<div class="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center">
-					<span class="text-white font-bold text-xl">T</span>
+					<span class="text-white font-bold text-lg">TT</span>
 				</div>
 				<span class="text-xl font-semibold text-white group-hover:text-primary-400 transition-colors">
 					Teller Technologies
