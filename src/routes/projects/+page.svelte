@@ -5,7 +5,7 @@
 		{
 			name: 'Training Platforms',
 			tagline: 'Enterprise Learning Solutions',
-			description: 'Custom-built training platforms that help organizations develop their teams. We create interactive learning experiences with hands-on labs, progress tracking, and certification preparation.',
+			description: 'Custom-built training platforms that help IT organizations develop their teams. We create interactive learning experiences with hands-on labs, progress tracking, and certification preparation.',
 			features: [
 				'Interactive course delivery systems',
 				'Virtual lab environments',

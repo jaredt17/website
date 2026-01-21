@@ -47,7 +47,7 @@
 				<span class="gradient-text">IT Enterprise</span>
 			</h1>
 			<p class="text-xl text-gray-400 leading-relaxed">
-				Teller Technologies builds training platforms and IT tools that help organizations develop their teams and streamline operations.
+				Teller Technologies builds training platforms and tools that help IT organizations develop their teams and streamline operations.
 			</p>
 		</div>
 	</div>

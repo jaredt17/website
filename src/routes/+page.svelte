@@ -40,7 +40,7 @@
 			</h1>
 
 			<p class="text-lg sm:text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-				We build custom training platforms and IT tools that help organizations develop their teams and streamline operations.
+				We build custom training platforms and IT tools that help IT organizations develop their teams and streamline operations.
 			</p>
 
 			<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
