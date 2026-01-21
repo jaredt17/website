@@ -133,7 +133,7 @@
 		<div class="text-center mb-16">
 			<h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Industries We Serve</h2>
 			<p class="text-gray-400 max-w-2xl mx-auto">
-				We partner with organizations across diverse sectors, bringing enterprise-grade network solutions to industries that demand reliability and security.
+				We partner with organizations across diverse sectors, bringing enterprise-grade solutions to industries that demand reliability and performance.
 			</p>
 		</div>
 

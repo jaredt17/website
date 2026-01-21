@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Monitor, FlaskConical, BarChart3, Award, Server, Shield, Activity, Settings } from 'lucide-svelte';
+	import { Monitor, FlaskConical, BarChart3, Award, Server, Network, Activity, Settings } from 'lucide-svelte';
 
 	const serviceAreas = [
 		{
@@ -22,12 +22,12 @@
 			description: 'Purpose-built tools that help IT teams manage, monitor, and maintain their infrastructure. We create solutions that streamline operations and improve visibility across your environment.',
 			features: [
 				'Infrastructure monitoring dashboards',
-				'Security and compliance tools',
+				'Network visualization tools',
 				'System health analytics',
 				'Configuration management',
 				'Automated reporting systems'
 			],
-			featureIcons: [Server, Shield, Activity, Settings],
+			featureIcons: [Server, Network, Activity, Settings],
 			icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01'
 		}
 	];
