@@ -18,12 +18,12 @@
 	];
 
 	const expertise = [
-		'Cisco & Juniper network infrastructure',
-		'Software-defined networking (SDN)',
-		'Cloud networking (AWS, Azure, GCP)',
-		'Network automation with Python/Ansible',
-		'Security architecture & compliance',
-		'High-availability & disaster recovery'
+		'Training platform development',
+		'Learning management systems (LMS)',
+		'Cloud infrastructure (AWS, Azure, GCP)',
+		'Automation with Python & modern tooling',
+		'Enterprise software architecture',
+		'DevOps & CI/CD pipelines'
 	];
 
 	const industries = [
@@ -46,10 +46,10 @@
 		<div class="max-w-3xl">
 			<h1 class="text-4xl sm:text-5xl font-bold text-white mb-6">
 				Building the Future of
-				<span class="gradient-text">Enterprise Networking</span>
+				<span class="gradient-text">Enterprise IT</span>
 			</h1>
 			<p class="text-xl text-gray-400 leading-relaxed">
-				Teller Technologies was founded with a simple mission: to help organizations build, manage, and optimize their network infrastructure with confidence.
+				Teller Technologies was founded with a simple mission: to help organizations train their IT teams and build the tools they need to succeed.
 			</p>
 		</div>
 	</div>
@@ -161,7 +161,7 @@
 			<div>
 				<h2 class="text-3xl font-bold text-white mb-6">Technical Expertise</h2>
 				<p class="text-gray-400 mb-8">
-					Our team brings deep experience across the full spectrum of enterprise networking technologies.
+					Our team brings deep experience building software and platforms for enterprise IT organizations.
 				</p>
 				<ul class="space-y-4">
 					{#each expertise as item}
@@ -176,16 +176,16 @@
 			</div>
 			<div class="grid grid-cols-2 gap-4">
 				<div class="card p-6 text-center">
-					<div class="text-3xl font-bold gradient-text mb-2">CCNP</div>
-					<div class="text-gray-400 text-sm">Certified</div>
+					<div class="text-3xl font-bold gradient-text mb-2">10+</div>
+					<div class="text-gray-400 text-sm">Years Experience</div>
 				</div>
 				<div class="card p-6 text-center">
 					<div class="text-3xl font-bold gradient-text mb-2">AWS</div>
-					<div class="text-gray-400 text-sm">Solutions Architect</div>
+					<div class="text-gray-400 text-sm">Certified</div>
 				</div>
 				<div class="card p-6 text-center">
-					<div class="text-3xl font-bold gradient-text mb-2">10+</div>
-					<div class="text-gray-400 text-sm">Years Experience</div>
+					<div class="text-3xl font-bold gradient-text mb-2">50+</div>
+					<div class="text-gray-400 text-sm">Projects Delivered</div>
 				</div>
 				<div class="card p-6 text-center">
 					<div class="text-3xl font-bold gradient-text mb-2">100%</div>
