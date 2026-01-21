@@ -172,9 +172,9 @@
 										class="w-full px-4 py-3 rounded-lg bg-surface-900 border border-surface-600 text-white focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
 									>
 										<option value="">Select a topic</option>
-										<option value="consulting">Network Consulting</option>
-										<option value="training">Training Inquiry</option>
-										<option value="netarch">NetArch Early Access</option>
+										<option value="training">Training Platforms</option>
+										<option value="tools">IT Management Tools</option>
+										<option value="consulting">Consulting Services</option>
 										<option value="partnership">Partnership</option>
 										<option value="other">Other</option>
 									</select>
@@ -228,14 +228,14 @@
 			<div class="card p-6">
 				<h3 class="text-lg font-semibold text-white mb-2">What types of projects do you work on?</h3>
 				<p class="text-gray-400">
-					We specialize in enterprise network architecture, including data center design, campus networks, WAN optimization, and cloud networking. We also offer training programs and custom software development for network automation.
+					We specialize in IT training platforms, custom software tools for IT teams, and consulting services. Our focus is on helping enterprise and education organizations build effective training programs and IT infrastructure.
 				</p>
 			</div>
 
 			<div class="card p-6">
-				<h3 class="text-lg font-semibold text-white mb-2">How can I get early access to NetArch?</h3>
+				<h3 class="text-lg font-semibold text-white mb-2">Do you build custom training platforms?</h3>
 				<p class="text-gray-400">
-					Select "NetArch Early Access" in the contact form above and tell us a bit about your use case. We're rolling out access to beta testers in phases.
+					Yes, we create custom training solutions including interactive learning platforms, virtual lab environments, and LMS integrations tailored to your organization's needs.
 				</p>
 			</div>
 
