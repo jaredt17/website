@@ -6,14 +6,9 @@
 			description: 'Custom-built learning platforms with interactive courses, hands-on labs, and certification preparation for IT teams.'
 		},
 		{
-			icon: 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z',
+			icon: 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 z',
 			title: 'Documentation Systems',
 			description: 'Comprehensive documentation platforms that help organizations capture, organize, and share technical knowledge.'
-		},
-		{
-			icon: 'M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4',
-			title: 'Custom Development',
-			description: 'Purpose-built software solutions tailored to your organization\'s unique training and documentation needs.'
 		}
 	];
 
@@ -76,7 +71,7 @@
 			</p>
 		</div>
 
-		<div class="grid md:grid-cols-3 gap-8">
+		<div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
 			{#each features as feature}
 				<div class="card p-8 hover:border-primary-500/50 transition-colors group">
 					<div class="w-12 h-12 rounded-lg bg-primary-500/10 flex items-center justify-center mb-6 group-hover:bg-primary-500/20 transition-colors">

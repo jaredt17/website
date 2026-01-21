@@ -14,7 +14,7 @@
 					<span class="text-xl font-semibold text-white">Teller Technologies</span>
 				</div>
 				<p class="text-gray-400 max-w-md">
-					Building innovative solutions for enterprise IT infrastructure. From network architecture to training platforms, we help organizations modernize their technology stack.
+					Building innovative solutions for enterprise IT infrastructure. From training platforms to documentation tooling, we help organizations modernize their technology stack.
 				</p>
 			</div>
 

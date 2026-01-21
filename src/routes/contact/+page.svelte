@@ -77,7 +77,7 @@
 			<div class="lg:col-span-1">
 				<h2 class="text-2xl font-bold text-white mb-6">Get in Touch</h2>
 				<p class="text-gray-400 mb-8">
-					Whether you're looking for network architecture consulting, training solutions, or want to discuss a project, we're here to help.
+					Whether you're looking for IT consulting, training solutions, or want to discuss a project, we're here to help.
 				</p>
 
 				<div class="space-y-6">

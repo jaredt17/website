@@ -23,7 +23,7 @@
 		'Learning management systems (LMS)',
 		'Cloud infrastructure (AWS, Azure, GCP)',
 		'Modern web technologies',
-		'Enterprise software architecture'
+		'IT Enterprise architecture'
 	];
 
 	const industries = [
@@ -45,7 +45,7 @@
 		<div class="max-w-3xl">
 			<h1 class="text-4xl sm:text-5xl font-bold text-white mb-6">
 				Building the Future of
-				<span class="gradient-text">Enterprise Training</span>
+				<span class="gradient-text">IT Enterprise</span>
 			</h1>
 			<p class="text-xl text-gray-400 leading-relaxed">
 				Teller Technologies builds training and documentation platforms that help organizations develop their teams and capture institutional knowledge.
@@ -90,9 +90,8 @@
 							<div class="text-sm text-gray-500 uppercase tracking-wider mb-2">Focus Areas</div>
 							<div class="flex flex-wrap gap-2">
 								<span class="px-3 py-1 rounded-full bg-primary-500/10 text-primary-400 text-sm">Enterprise IT</span>
-								<span class="px-3 py-1 rounded-full bg-accent-500/10 text-accent-400 text-sm">Network Architecture</span>
 								<span class="px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-sm">Training</span>
-								<span class="px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-sm">Software</span>
+								<span class="px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-sm">Education</span>
 							</div>
 						</div>
 					</div>
@@ -138,9 +137,9 @@
 			</p>
 		</div>
 
-		<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+		<div class="flex flex-wrap justify-center gap-4">
 			{#each industries as industry (industry.name)}
-				<div class="card p-6 text-center hover:border-primary-500/50 transition-colors group">
+				<div class="card p-6 text-center hover:border-primary-500/50 transition-colors group w-40 sm:w-48">
 					<div class="w-12 h-12 rounded-lg bg-primary-500/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary-500/20 transition-colors">
 						<svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={industry.icon} />
