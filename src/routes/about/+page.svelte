@@ -186,7 +186,7 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 		<h2 class="text-3xl font-bold text-white mb-4">Want to Work Together?</h2>
 		<p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-			Whether you need help with a complex network project or want to discuss training for your team, we'd love to hear from you.
+			Whether you need help with a complex IT project or want to discuss training for your team, we'd love to hear from you.
 		</p>
 		<a href="/contact" class="btn-primary inline-flex items-center gap-2">
 			Get in Touch

@@ -19,7 +19,7 @@
 		rel="stylesheet"
 	/>
 	<title>Teller Technologies | Enterprise IT Solutions</title>
-	<meta name="description" content="Teller Technologies - Enterprise IT solutions, network training, and innovative software for modern infrastructure." />
+	<meta name="description" content="Teller Technologies - Enterprise IT solutions, educational training, and innovative tools for modern infrastructure." />
 </svelte:head>
 
 <div class="min-h-screen flex flex-col">
