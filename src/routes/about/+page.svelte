@@ -158,7 +158,7 @@
 			<div>
 				<h2 class="text-3xl font-bold text-white mb-6">Technical Expertise</h2>
 				<p class="text-gray-400 mb-8">
-					Our team brings deep experience building software and platforms for enterprise IT organizations.
+					Our team brings deep experience building platforms for enterprise IT organizations.
 				</p>
 				<ul class="space-y-4">
 					{#each expertise as item}
