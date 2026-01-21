@@ -3,41 +3,41 @@
 		{
 			name: 'Training Platforms',
 			tagline: 'Enterprise Learning Solutions',
-			description: 'Custom-built training platforms designed for IT organizations. We create interactive learning experiences with hands-on labs, progress tracking, and certification preparation tools.',
+			description: 'Custom-built training platforms that help organizations develop their teams. We create interactive learning experiences with hands-on labs, progress tracking, and certification preparation.',
 			features: [
 				'Interactive course delivery systems',
 				'Virtual lab environments',
-				'Progress tracking and analytics dashboards',
-				'Certification exam preparation modules',
+				'Progress tracking and analytics',
+				'Certification preparation modules',
 				'LMS integration capabilities'
 			],
 			icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253'
 		},
 		{
-			name: 'IT Management Tools',
-			tagline: 'Infrastructure & Operations Software',
-			description: 'Purpose-built software tools that help IT teams manage their infrastructure more effectively. From monitoring dashboards to automation utilities, we build what your team needs.',
+			name: 'Documentation Systems',
+			tagline: 'Knowledge Management Platforms',
+			description: 'Comprehensive documentation platforms that help organizations capture, organize, and share technical knowledge. We build systems that make information accessible and maintainable.',
 			features: [
-				'Custom monitoring and alerting systems',
-				'Infrastructure documentation tools',
-				'Automation and orchestration utilities',
-				'Asset management solutions',
-				'Reporting and compliance tools'
+				'Technical documentation portals',
+				'Knowledge base systems',
+				'API documentation platforms',
+				'Internal wiki solutions',
+				'Search and discovery tools'
 			],
-			icon: 'M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z'
+			icon: 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'
 		},
 		{
-			name: 'Consulting Services',
-			tagline: 'Strategic IT Guidance',
-			description: 'Expert consulting for organizations looking to modernize their IT training programs or infrastructure. We help you plan, implement, and optimize.',
+			name: 'Custom Development',
+			tagline: 'Tailored Solutions',
+			description: 'Purpose-built software solutions tailored to your organization\'s unique needs. We work closely with you to understand requirements and deliver exactly what you need.',
 			features: [
-				'Training program development',
-				'Technology stack evaluation',
-				'Infrastructure architecture review',
-				'Process optimization',
-				'Team capability assessments'
+				'Requirements analysis',
+				'Custom platform development',
+				'System integrations',
+				'Ongoing support & maintenance',
+				'Training and handoff'
 			],
-			icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z'
+			icon: 'M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4'
 		}
 	];
 
@@ -56,8 +56,8 @@
 </script>
 
 <svelte:head>
-	<title>Projects & Services | Teller Technologies</title>
-	<meta name="description" content="Explore the IT training platforms, tools, and services offered by Teller Technologies for enterprise organizations." />
+	<title>Services | Teller Technologies</title>
+	<meta name="description" content="We build training platforms and documentation systems for enterprise organizations." />
 </svelte:head>
 
 <!-- Hero Section -->
@@ -68,7 +68,7 @@
 				What We <span class="gradient-text">Build</span>
 			</h1>
 			<p class="text-xl text-gray-400 leading-relaxed">
-				We create training platforms, IT management tools, and custom software solutions for enterprise organizations.
+				We create training platforms and documentation systems for enterprise organizations.
 			</p>
 		</div>
 	</div>

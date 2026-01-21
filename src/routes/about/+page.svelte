@@ -19,11 +19,11 @@
 
 	const expertise = [
 		'Training platform development',
+		'Documentation & knowledge systems',
 		'Learning management systems (LMS)',
 		'Cloud infrastructure (AWS, Azure, GCP)',
-		'Automation with Python & modern tooling',
-		'Enterprise software architecture',
-		'DevOps & CI/CD pipelines'
+		'Modern web technologies',
+		'Enterprise software architecture'
 	];
 
 	const industries = [
@@ -45,10 +45,10 @@
 		<div class="max-w-3xl">
 			<h1 class="text-4xl sm:text-5xl font-bold text-white mb-6">
 				Building the Future of
-				<span class="gradient-text">Enterprise IT</span>
+				<span class="gradient-text">Enterprise Training</span>
 			</h1>
 			<p class="text-xl text-gray-400 leading-relaxed">
-				Teller Technologies was founded with a simple mission: to help organizations train their IT teams and build the tools they need to succeed.
+				Teller Technologies builds training and documentation platforms that help organizations develop their teams and capture institutional knowledge.
 			</p>
 		</div>
 	</div>

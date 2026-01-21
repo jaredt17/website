@@ -52,7 +52,7 @@
 
 <svelte:head>
 	<title>Contact | Teller Technologies</title>
-	<meta name="description" content="Get in touch with Teller Technologies for enterprise IT solutions, network architecture, and training inquiries." />
+	<meta name="description" content="Get in touch with Teller Technologies for enterprise IT solutions, educational applications, and training inquiries." />
 </svelte:head>
 
 <!-- Hero Section -->
