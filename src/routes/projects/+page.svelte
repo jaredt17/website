@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Monitor, FlaskConical, BarChart3, Award, Server, Shield, Activity, Settings, ClipboardList, Wrench, Link, Headphones } from 'lucide-svelte';
+	import { Monitor, FlaskConical, BarChart3, Award, Server, Shield, Activity, Settings } from 'lucide-svelte';
 
 	const serviceAreas = [
 		{
@@ -29,20 +29,6 @@
 			],
 			featureIcons: [Server, Shield, Activity, Settings],
 			icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01'
-		},
-		{
-			name: 'Custom Development',
-			tagline: 'Tailored Solutions',
-			description: 'Purpose-built software solutions tailored to your organization\'s unique needs. We work closely with you to understand requirements and deliver exactly what you need.',
-			features: [
-				'Requirements analysis',
-				'Custom platform development',
-				'System integrations',
-				'Ongoing support & maintenance',
-				'Training and handoff'
-			],
-			featureIcons: [ClipboardList, Wrench, Link, Headphones],
-			icon: 'M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4'
 		}
 	];
 </script>
@@ -127,7 +113,7 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 		<h2 class="text-3xl font-bold text-white mb-4">Have a Project in Mind?</h2>
 		<p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-			Whether you need a training platform, custom IT tools, or expert consulting, we'd love to discuss how we can help.
+			Whether you need a training platform or enterprise IT tools, we'd love to discuss how we can help.
 		</p>
 		<a href="/contact" class="btn-primary inline-flex items-center gap-2">
 			Start a Conversation
