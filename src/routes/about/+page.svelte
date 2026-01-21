@@ -21,7 +21,6 @@
 		'Training platform development',
 		'Enterprise IT tools & dashboards',
 		'Learning management systems (LMS)',
-		'Cloud infrastructure (AWS, Azure, GCP)',
 		'Modern web technologies',
 		'IT Enterprise architecture'
 	];
