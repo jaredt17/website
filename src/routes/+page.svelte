@@ -113,7 +113,7 @@
 					Training Platforms & IT Tools
 				</h2>
 				<p class="text-gray-400 mb-6 text-lg">
-					We build platforms that help organizations train their teams and manage their infrastructure. From interactive learning systems to IT management dashboards, we create the tools that drive efficiency.
+					We build platforms that help IT organizations train their teams and manage their infrastructure. From interactive learning systems to IT management dashboards, we create the tools that drive efficiency.
 				</p>
 				<ul class="space-y-3 mb-8">
 					{#each capabilities as capability}
