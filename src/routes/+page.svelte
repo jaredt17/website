@@ -6,9 +6,9 @@
 			description: 'Custom-built learning platforms with interactive courses, hands-on labs, and certification preparation for IT teams.'
 		},
 		{
-			icon: 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 z',
-			title: 'Documentation Systems',
-			description: 'Comprehensive documentation platforms that help organizations capture, organize, and share technical knowledge.'
+			icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01',
+			title: 'Enterprise IT Tools',
+			description: 'Purpose-built tools that help IT teams manage, monitor, and maintain their infrastructure effectively.'
 		}
 	];
 
@@ -21,9 +21,9 @@
 
 	const capabilities = [
 		'Interactive learning platforms',
-		'Technical documentation systems',
-		'Knowledge base solutions',
+		'Infrastructure monitoring tools',
 		'Hands-on lab environments',
+		'IT management dashboards',
 		'LMS integration',
 		'Progress tracking & analytics'
 	];
@@ -39,11 +39,11 @@
 		<div class="text-center max-w-4xl mx-auto">
 			<h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
 				Enterprise Training &
-				<span class="gradient-text">Documentation Platforms</span>
+				<span class="gradient-text">IT Tools</span>
 			</h1>
 
 			<p class="text-lg sm:text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-				We build custom training and documentation platforms that help organizations develop their teams and capture institutional knowledge.
+				We build custom training platforms and IT tools that help organizations develop their teams and streamline operations.
 			</p>
 
 			<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -110,10 +110,10 @@
 					Our Focus
 				</div>
 				<h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">
-					Training & Documentation Platforms
+					Training Platforms & IT Tools
 				</h2>
 				<p class="text-gray-400 mb-6 text-lg">
-					We build platforms that help organizations train their teams and document their knowledge. From interactive learning systems to comprehensive documentation portals, we create the tools that make knowledge accessible.
+					We build platforms that help organizations train their teams and manage their infrastructure. From interactive learning systems to IT management dashboards, we create the tools that drive efficiency.
 				</p>
 				<ul class="space-y-3 mb-8">
 					{#each capabilities as capability}
@@ -175,7 +175,7 @@
 				Ready to Build Your Platform?
 			</h2>
 			<p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-				Whether you need a training platform, documentation system, or custom solution, we're here to help bring your vision to life.
+				Whether you need a training platform, IT management tools, or custom solution, we're here to help bring your vision to life.
 			</p>
 			<a href="/contact" class="btn-primary inline-flex items-center gap-2">
 				Start a Conversation

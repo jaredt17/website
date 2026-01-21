@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Monitor, FlaskConical, BarChart3, Award, FileText, Database, Code, BookOpen, ClipboardList, Wrench, Link, Headphones } from 'lucide-svelte';
+	import { Monitor, FlaskConical, BarChart3, Award, Server, Shield, Activity, Settings, ClipboardList, Wrench, Link, Headphones } from 'lucide-svelte';
 
 	const serviceAreas = [
 		{
@@ -17,18 +17,18 @@
 			icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253'
 		},
 		{
-			name: 'Documentation Systems',
-			tagline: 'Knowledge Management Platforms',
-			description: 'Comprehensive documentation platforms that help organizations capture, organize, and share technical knowledge. We build systems that make information accessible and maintainable.',
+			name: 'Enterprise IT Tools',
+			tagline: 'Infrastructure Management Solutions',
+			description: 'Purpose-built tools that help IT teams manage, monitor, and maintain their infrastructure. We create solutions that streamline operations and improve visibility across your environment.',
 			features: [
-				'Technical documentation portals',
-				'Knowledge base systems',
-				'API documentation platforms',
-				'Internal wiki solutions',
-				'Search and discovery tools'
+				'Infrastructure monitoring dashboards',
+				'Security and compliance tools',
+				'System health analytics',
+				'Configuration management',
+				'Automated reporting systems'
 			],
-			featureIcons: [FileText, Database, Code, BookOpen],
-			icon: 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'
+			featureIcons: [Server, Shield, Activity, Settings],
+			icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01'
 		},
 		{
 			name: 'Custom Development',
@@ -49,7 +49,7 @@
 
 <svelte:head>
 	<title>Services | Teller Technologies</title>
-	<meta name="description" content="We build training platforms and documentation systems for enterprise organizations." />
+	<meta name="description" content="We build training platforms and enterprise IT tools for organizations." />
 </svelte:head>
 
 <!-- Hero Section -->
@@ -60,7 +60,7 @@
 				What We <span class="gradient-text">Build</span>
 			</h1>
 			<p class="text-xl text-gray-400 leading-relaxed">
-				We create training platforms and documentation systems for enterprise organizations.
+				We create training platforms and enterprise IT tools for organizations.
 			</p>
 		</div>
 	</div>

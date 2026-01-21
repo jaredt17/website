@@ -19,7 +19,7 @@
 
 	const expertise = [
 		'Training platform development',
-		'Documentation & knowledge systems',
+		'Enterprise IT tools & dashboards',
 		'Learning management systems (LMS)',
 		'Cloud infrastructure (AWS, Azure, GCP)',
 		'Modern web technologies',
@@ -48,7 +48,7 @@
 				<span class="gradient-text">IT Enterprise</span>
 			</h1>
 			<p class="text-xl text-gray-400 leading-relaxed">
-				Teller Technologies builds training and documentation platforms that help organizations develop their teams and capture institutional knowledge.
+				Teller Technologies builds training platforms and IT tools that help organizations develop their teams and streamline operations.
 			</p>
 		</div>
 	</div>
