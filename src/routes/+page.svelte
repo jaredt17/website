@@ -12,10 +12,6 @@
 		}
 	];
 
-	const stats = [
-		{ value: '7+', label: 'Years IT Experience' }
-	];
-
 	const capabilities = [
 		'Interactive learning platforms',
 		'Infrastructure monitoring tools',
@@ -78,20 +74,6 @@
 					</div>
 					<h3 class="text-xl font-semibold text-white mb-3">{feature.title}</h3>
 					<p class="text-gray-400">{feature.description}</p>
-				</div>
-			{/each}
-		</div>
-	</div>
-</section>
-
-<!-- Stats Section -->
-<section class="py-20">
-	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-		<div class="flex justify-center">
-			{#each stats as stat}
-				<div class="text-center">
-					<div class="text-3xl sm:text-4xl font-bold gradient-text mb-2">{stat.value}</div>
-					<div class="text-gray-400 text-sm uppercase tracking-wider">{stat.label}</div>
 				</div>
 			{/each}
 		</div>

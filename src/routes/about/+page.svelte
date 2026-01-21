@@ -154,29 +154,21 @@
 <!-- Expertise Section -->
 <section class="py-20">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-		<div class="grid lg:grid-cols-2 gap-12 items-center">
-			<div>
-				<h2 class="text-3xl font-bold text-white mb-6">Technical Expertise</h2>
-				<p class="text-gray-400 mb-8">
-					Our team brings deep experience building platforms for enterprise IT organizations.
-				</p>
-				<ul class="space-y-4">
-					{#each expertise as item}
-						<li class="flex items-center gap-3 text-gray-300">
-							<svg class="w-5 h-5 text-accent-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-							</svg>
-							{item}
-						</li>
-					{/each}
-				</ul>
-			</div>
-			<div class="grid grid-cols-1 gap-4">
-				<div class="card p-6 text-center">
-					<div class="text-3xl font-bold gradient-text mb-2">7+</div>
-					<div class="text-gray-400 text-sm">Years IT Experience</div>
-				</div>
-			</div>
+		<div class="max-w-2xl mx-auto text-center">
+			<h2 class="text-3xl font-bold text-white mb-6">Technical Expertise</h2>
+			<p class="text-gray-400 mb-8">
+				We bring deep experience building platforms for enterprise IT organizations.
+			</p>
+			<ul class="space-y-4 text-left max-w-md mx-auto">
+				{#each expertise as item}
+					<li class="flex items-center gap-3 text-gray-300">
+						<svg class="w-5 h-5 text-accent-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+						</svg>
+						{item}
+					</li>
+				{/each}
+			</ul>
 		</div>
 	</div>
 </section>
