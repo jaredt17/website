@@ -172,22 +172,10 @@
 					{/each}
 				</ul>
 			</div>
-			<div class="grid grid-cols-2 gap-4">
+			<div class="grid grid-cols-1 gap-4">
 				<div class="card p-6 text-center">
-					<div class="text-3xl font-bold gradient-text mb-2">10+</div>
-					<div class="text-gray-400 text-sm">Years Experience</div>
-				</div>
-				<div class="card p-6 text-center">
-					<div class="text-3xl font-bold gradient-text mb-2">AWS</div>
-					<div class="text-gray-400 text-sm">Certified</div>
-				</div>
-				<div class="card p-6 text-center">
-					<div class="text-3xl font-bold gradient-text mb-2">50+</div>
-					<div class="text-gray-400 text-sm">Projects Delivered</div>
-				</div>
-				<div class="card p-6 text-center">
-					<div class="text-3xl font-bold gradient-text mb-2">100%</div>
-					<div class="text-gray-400 text-sm">Client Satisfaction</div>
+					<div class="text-3xl font-bold gradient-text mb-2">7+</div>
+					<div class="text-gray-400 text-sm">Years IT Experience</div>
 				</div>
 			</div>
 		</div>

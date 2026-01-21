@@ -13,10 +13,7 @@
 	];
 
 	const stats = [
-		{ value: '99.9%', label: 'Uptime SLA' },
-		{ value: '50+', label: 'Enterprise Clients' },
-		{ value: '10k+', label: 'Professionals Trained' },
-		{ value: '24/7', label: 'Support Available' }
+		{ value: '7+', label: 'Years IT Experience' }
 	];
 
 	const capabilities = [
@@ -90,7 +87,7 @@
 <!-- Stats Section -->
 <section class="py-20">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-		<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+		<div class="flex justify-center">
 			{#each stats as stat}
 				<div class="text-center">
 					<div class="text-3xl sm:text-4xl font-bold gradient-text mb-2">{stat.value}</div>
