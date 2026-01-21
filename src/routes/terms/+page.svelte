@@ -6,7 +6,7 @@
 <section class="py-20 sm:py-28">
 	<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 		<h1 class="text-4xl font-bold text-white mb-8">Terms of Service</h1>
-		<p class="text-gray-400 mb-8">Last updated: January 2025</p>
+		<p class="text-gray-400 mb-8">Last updated: January 2026</p>
 
 		<div class="prose prose-invert max-w-none space-y-8">
 			<section>
