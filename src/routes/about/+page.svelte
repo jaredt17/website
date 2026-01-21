@@ -187,7 +187,7 @@
 		<div class="max-w-2xl mx-auto text-center">
 			<h2 class="text-3xl font-bold text-white mb-6">Meet the Founder</h2>
 			<p class="text-gray-400 mb-6">
-				Teller Technologies was founded by Jared Teller, an IT professional with 7+ years of experience in enterprise environments.
+				Teller Technologies was founded by Jared Teller with a mission to build better training and tooling solutions for enterprise IT organizations.
 			</p>
 			<a
 				href="https://www.linkedin.com/in/jared-teller/"
