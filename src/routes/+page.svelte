@@ -39,7 +39,7 @@
 		<div class="text-center max-w-4xl mx-auto">
 			<h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
 				Enterprise Training &
-				<span class="gradient-text">IT Tools</span>
+				<span class="gradient-text">Tooling Platforms</span>
 			</h1>
 
 			<p class="text-lg sm:text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
