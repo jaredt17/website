@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { Monitor, FlaskConical, BarChart3, Award, FileText, Database, Code, BookOpen, ClipboardList, Wrench, Link, Headphones } from 'lucide-svelte';
+
 	const serviceAreas = [
 		{
 			name: 'Training Platforms',
@@ -11,6 +13,7 @@
 				'Certification preparation modules',
 				'LMS integration capabilities'
 			],
+			featureIcons: [Monitor, FlaskConical, BarChart3, Award],
 			icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253'
 		},
 		{
@@ -24,6 +27,7 @@
 				'Internal wiki solutions',
 				'Search and discovery tools'
 			],
+			featureIcons: [FileText, Database, Code, BookOpen],
 			icon: 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'
 		},
 		{
@@ -37,21 +41,9 @@
 				'Ongoing support & maintenance',
 				'Training and handoff'
 			],
+			featureIcons: [ClipboardList, Wrench, Link, Headphones],
 			icon: 'M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4'
 		}
-	];
-
-	const technologies = [
-		'SvelteKit',
-		'TypeScript',
-		'Python',
-		'Go',
-		'PostgreSQL',
-		'Redis',
-		'Docker',
-		'Kubernetes',
-		'AWS',
-		'Azure'
 	];
 </script>
 
@@ -117,7 +109,7 @@
 							{#each service.features.slice(0, 4) as feature, j}
 								<div class="p-4 bg-surface-800 rounded-lg">
 									<div class="w-8 h-8 rounded-full bg-primary-500/20 flex items-center justify-center mb-3">
-										<span class="text-primary-400 font-bold text-sm">{j + 1}</span>
+										<svelte:component this={service.featureIcons[j]} class="w-4 h-4 text-primary-400" />
 									</div>
 									<p class="text-gray-300 text-sm">{feature}</p>
 								</div>
@@ -129,26 +121,6 @@
 		</div>
 	</section>
 {/each}
-
-<!-- Technologies Section -->
-<section class="py-20 bg-surface-800/50">
-	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-		<div class="text-center mb-12">
-			<h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Technologies We Use</h2>
-			<p class="text-gray-400 max-w-2xl mx-auto">
-				We leverage modern, proven technologies to build reliable and scalable solutions.
-			</p>
-		</div>
-
-		<div class="flex flex-wrap justify-center gap-4">
-			{#each technologies as tech}
-				<span class="px-4 py-2 rounded-lg bg-surface-700 text-gray-300 font-mono text-sm hover:bg-surface-600 transition-colors">
-					{tech}
-				</span>
-			{/each}
-		</div>
-	</div>
-</section>
 
 <!-- CTA Section -->
 <section class="py-20">
