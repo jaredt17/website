@@ -228,7 +228,7 @@
 			<div class="card p-6">
 				<h3 class="text-lg font-semibold text-white mb-2">What types of projects do you work on?</h3>
 				<p class="text-gray-400">
-					We specialize in IT training platforms, custom software tools for IT teams, and consulting services. Our focus is on helping enterprise and education organizations build effective training programs and IT infrastructure.
+					We specialize in IT training platforms, custom tools for IT teams, and consulting services. Our focus is on helping enterprise and education organizations build effective training programs and IT infrastructure.
 				</p>
 			</div>
 
