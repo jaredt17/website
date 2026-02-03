@@ -17,8 +17,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		// Map subject values to readable text
 		const subjectMap: Record<string, string> = {
 			training: 'Training Platform Inquiry',
-			tools: 'IT Management Tools Inquiry',
-			consulting: 'Consulting Services Inquiry',
+			tools: 'IT Training Tools Inquiry',
 			partnership: 'Partnership Inquiry',
 			other: 'General Inquiry'
 		};

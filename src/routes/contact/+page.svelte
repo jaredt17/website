@@ -77,7 +77,7 @@
 			<div class="lg:col-span-1">
 				<h2 class="text-2xl font-bold text-white mb-6">Get in Touch</h2>
 				<p class="text-gray-400 mb-8">
-					Whether you're looking for IT consulting, training solutions, or want to discuss a project, we're here to help.
+					Whether you need training solutions for your team or want to discuss a project, we're here to help.
 				</p>
 
 				<div class="space-y-6">
@@ -173,8 +173,7 @@
 									>
 										<option value="">Select a topic</option>
 										<option value="training">Training Platforms</option>
-										<option value="tools">IT Management Tools</option>
-										<option value="consulting">Consulting Services</option>
+										<option value="tools">IT Training Tools</option>
 										<option value="partnership">Partnership</option>
 										<option value="other">Other</option>
 									</select>
@@ -228,7 +227,7 @@
 			<div class="card p-6">
 				<h3 class="text-lg font-semibold text-white mb-2">What types of projects do you work on?</h3>
 				<p class="text-gray-400">
-					We specialize in IT training platforms, custom tools for IT teams, and consulting services. Our focus is on helping enterprise and education organizations build effective training programs and IT infrastructure.
+					We specialize in IT training platforms and custom training tools for IT teams. Our focus is on helping enterprise and education organizations build effective training programs.
 				</p>
 			</div>
 

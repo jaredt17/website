@@ -8,15 +8,13 @@
 		{
 			icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01',
 			title: 'Enterprise IT Tools',
-			description: 'Purpose-built tools that help IT teams manage, monitor, and maintain their infrastructure effectively.'
+			description: 'Purpose-built tools that help IT teams learn IT concepts.'
 		}
 	];
 
 	const capabilities = [
 		'Interactive learning platforms',
-		'Infrastructure monitoring tools',
 		'Hands-on lab environments',
-		'IT management dashboards',
 		'LMS integration',
 		'Progress tracking & analytics'
 	];
@@ -36,7 +34,7 @@
 			</h1>
 
 			<p class="text-lg sm:text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-				We build custom training platforms and IT tools that help IT organizations develop their teams and streamline operations.
+				We build custom training platforms and IT tools that help IT organizations develop their teams and build IT skills.
 			</p>
 
 			<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -92,7 +90,7 @@
 					Training Platforms & IT Tools
 				</h2>
 				<p class="text-gray-400 mb-6 text-lg">
-					We build platforms that help IT organizations train their teams and manage their infrastructure. From interactive learning systems to IT management dashboards, we create the tools that drive efficiency.
+					We build platforms that help IT organizations train their teams effectively. From interactive learning systems to training dashboards, we create the tools that drive skill development.
 				</p>
 				<ul class="space-y-3 mb-8">
 					{#each capabilities as capability}
@@ -154,7 +152,7 @@
 				Ready to Build Your Platform?
 			</h2>
 			<p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-				Whether you need a training platform, IT management tools, or custom solution, we're here to help bring your vision to life.
+				Whether you need a training platform, IT training tools, or custom learning solution, we're here to help bring your vision to life.
 			</p>
 			<a href="/contact" class="btn-primary inline-flex items-center gap-2">
 				Start a Conversation

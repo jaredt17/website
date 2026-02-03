@@ -18,14 +18,14 @@
 		},
 		{
 			name: 'Enterprise IT Tools',
-			tagline: 'Infrastructure Management Solutions',
-			description: 'Purpose-built tools that help IT teams manage, monitor, and maintain their infrastructure. We create solutions that streamline operations and improve visibility across your environment.',
+			tagline: 'IT Learning & Simulation Tools',
+			description: 'Purpose-built tools that help IT teams learn and practice infrastructure management skills in simulated environments. We create solutions that enhance learning and provide hands-on practice opportunities.',
 			features: [
-				'Infrastructure monitoring dashboards',
-				'Custom admin panels',
-				'System health analytics',
-				'Configuration management',
-				'Automated reporting systems'
+				'Training dashboards and simulations',
+				'Practice admin environments',
+				'Learning progress analytics',
+				'Configuration training labs',
+				'Assessment and reporting tools'
 			],
 			featureIcons: [Server, LayoutDashboard, Activity, Settings],
 			icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01'
