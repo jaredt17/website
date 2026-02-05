@@ -19,10 +19,10 @@
 
 	const expertise = [
 		'Training platform development',
-		'Enterprise IT tools & dashboards',
-		'Learning management systems (LMS)',
+		'Enterprise IT learning tools',
+		'Hands-on lab environments',
 		'Modern web technologies',
-		'IT Enterprise architecture'
+		'IT certification preparation'
 	];
 
 	const industries = [
@@ -35,7 +35,7 @@
 
 <svelte:head>
 	<title>About | Teller Technologies</title>
-	<meta name="description" content="Learn about Teller Technologies - our mission, values, and expertise in enterprise IT solutions." />
+	<meta name="description" content="Learn about Teller Technologies - our mission, values, and expertise in enterprise IT training and education tools." />
 </svelte:head>
 
 <!-- Hero Section -->
@@ -47,7 +47,7 @@
 				<span class="gradient-text">IT Enterprise</span>
 			</h1>
 			<p class="text-xl text-gray-400 leading-relaxed">
-				Teller Technologies builds training platforms and tools that help IT organizations develop their teams and streamline operations.
+				Teller Technologies builds training platforms and tools that help IT organizations develop their teams and build IT skills.
 			</p>
 		</div>
 	</div>
@@ -201,7 +201,7 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 		<h2 class="text-3xl font-bold text-white mb-4">Want to Work Together?</h2>
 		<p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-			Whether you need help with a complex IT project or want to discuss training for your team, we'd love to hear from you.
+			Whether you need a training platform for your team or want to discuss IT education tools, we'd love to hear from you.
 		</p>
 		<a href="/contact" class="btn-primary inline-flex items-center gap-2">
 			Get in Touch

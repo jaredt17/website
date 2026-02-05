@@ -52,7 +52,7 @@
 
 <svelte:head>
 	<title>Contact | Teller Technologies</title>
-	<meta name="description" content="Get in touch with Teller Technologies for enterprise IT solutions, educational applications, and training inquiries." />
+	<meta name="description" content="Get in touch with Teller Technologies for IT training platforms, educational tools, and learning solutions." />
 </svelte:head>
 
 <!-- Hero Section -->
@@ -234,14 +234,14 @@
 			<div class="card p-6">
 				<h3 class="text-lg font-semibold text-white mb-2">Do you build custom training platforms?</h3>
 				<p class="text-gray-400">
-					Yes, we create custom training solutions including interactive learning platforms, virtual lab environments, and LMS integrations tailored to your organization's needs.
+					Yes, we create custom training solutions including interactive learning platforms, virtual lab environments, and certification preparation tools tailored to your organization's needs.
 				</p>
 			</div>
 
 			<div class="card p-6">
-				<h3 class="text-lg font-semibold text-white mb-2">Do you offer remote training?</h3>
+				<h3 class="text-lg font-semibold text-white mb-2">Are your tools available online?</h3>
 				<p class="text-gray-400">
-					Yes, we offer both on-site and remote training options. Our remote programs include live instruction, hands-on labs, and comprehensive materials.
+					Yes, our training tools and platforms are web-based, accessible from any modern browser. We focus on building tools that learners and organizations can use from anywhere.
 				</p>
 			</div>
 		</div>

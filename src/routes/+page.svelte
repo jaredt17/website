@@ -15,7 +15,7 @@
 	const capabilities = [
 		'Interactive learning platforms',
 		'Hands-on lab environments',
-		'LMS integration',
+		'Certification preparation tools',
 		'Progress tracking & analytics'
 	];
 </script>
@@ -58,7 +58,7 @@
 		<div class="text-center mb-16">
 			<h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">What We Do</h2>
 			<p class="text-gray-400 max-w-2xl mx-auto">
-				Specialized expertise in enterprise IT, combining hands-on experience with innovative solutions.
+				Specialized expertise in enterprise IT training, combining hands-on experience with effective learning tools.
 			</p>
 		</div>
 
