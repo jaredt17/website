@@ -2,21 +2,22 @@
 	const features = [
 		{
 			icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253',
-			title: 'Training Platforms',
-			description: 'Custom-built learning platforms with interactive courses, hands-on labs, and certification preparation for IT teams.'
+			title: 'Training & Education Tools',
+			description: 'Interactive training tools with hands-on labs and certification preparation for IT professionals and students.'
 		},
 		{
 			icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01',
-			title: 'Enterprise IT Tools',
-			description: 'Purpose-built tools that help IT teams learn IT concepts.'
+			title: 'Planning, Infrastructure & Documentation',
+			description: 'Purpose-built tools for IT infrastructure planning, network architecture visualization, and documentation.'
 		}
 	];
 
 	const capabilities = [
-		'Interactive learning platforms',
+		'Enterprise IT training tools',
 		'Hands-on lab environments',
-		'Certification preparation tools',
-		'Progress tracking & analytics'
+		'IT infrastructure planning tools',
+		'Network architecture visualization',
+		'Enterprise IT documentation tools'
 	];
 </script>
 
@@ -29,12 +30,12 @@
 	<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="text-center max-w-4xl mx-auto">
 			<h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-				IT Enterprise Training &
-				<span class="gradient-text">Education Platforms</span>
+				Enterprise IT Training &
+				<span class="gradient-text">Education Tools</span>
 			</h1>
 
 			<p class="text-lg sm:text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-				We build custom training platforms and IT tools that help IT organizations develop their teams and build IT skills.
+				We build web-based enterprise IT training, planning, infrastructure, and documentation tools used to train and educate IT professionals and students.
 			</p>
 
 			<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -56,9 +57,9 @@
 <section class="py-20 bg-surface-800/50">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="text-center mb-16">
-			<h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">What We Do</h2>
+			<h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">What We Build</h2>
 			<p class="text-gray-400 max-w-2xl mx-auto">
-				Specialized expertise in enterprise IT training, combining hands-on experience with effective learning tools.
+				Web-based enterprise IT training, planning, infrastructure, and documentation tools for IT professionals and education organizations.
 			</p>
 		</div>
 
@@ -87,10 +88,10 @@
 					Our Focus
 				</div>
 				<h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">
-					Training Platforms & IT Tools
+					Training, Planning & Documentation Tools
 				</h2>
 				<p class="text-gray-400 mb-6 text-lg">
-					We build platforms that help IT organizations train their teams effectively. From interactive learning systems to training dashboards, we create the tools that drive skill development.
+					We build web-based tools that help IT organizations train their teams, plan infrastructure, and document their environments. From interactive learning tools to network architecture visualization, we create the tools that drive skill development.
 				</p>
 				<ul class="space-y-3 mb-8">
 					{#each capabilities as capability}
@@ -149,10 +150,10 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="card p-12 text-center bg-gradient-to-r from-primary-900/50 to-accent-900/30 border-primary-500/30">
 			<h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">
-				Ready to Build Your Platform?
+				Ready to Get Started?
 			</h2>
 			<p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-				Whether you need a training platform, IT training tools, or custom learning solution, we're here to help bring your vision to life.
+				Whether you need training tools, infrastructure planning solutions, or documentation platforms, we're here to help bring your vision to life.
 			</p>
 			<a href="/contact" class="btn-primary inline-flex items-center gap-2">
 				Start a Conversation

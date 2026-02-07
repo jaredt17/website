@@ -3,29 +3,29 @@
 
 	const serviceAreas = [
 		{
-			name: 'Training Platforms',
-			tagline: 'Enterprise Learning Solutions',
-			description: 'Custom-built training platforms that help IT organizations develop their teams. We create interactive learning experiences with hands-on labs, progress tracking, and certification preparation.',
+			name: 'Training & Education Tools',
+			tagline: 'Enterprise IT Training Solutions',
+			description: 'Web-based training tools that help IT organizations develop their teams. We create interactive learning experiences with hands-on labs, certification preparation, and skills assessment.',
 			features: [
-				'Interactive course delivery systems',
+				'Interactive training tools',
 				'Virtual lab environments',
-				'Progress tracking and analytics',
 				'Certification preparation modules',
-				'Skills assessment and reporting'
+				'Skills assessment and reporting',
+				'Hands-on practice environments'
 			],
 			featureIcons: [Monitor, FlaskConical, BarChart3, Award],
 			icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253'
 		},
 		{
-			name: 'Enterprise IT Tools',
-			tagline: 'IT Learning & Simulation Tools',
-			description: 'Purpose-built tools that help IT teams learn and practice enterprise IT infrastructure in simulated environments. We create solutions that enhance learning and provide hands-on practice opportunities.',
+			name: 'Planning, IT Infrastructure & Documentation',
+			tagline: 'Enterprise IT Infrastructure Planning & Documentation Tools',
+			description: 'Purpose-built tools for enterprise IT infrastructure planning, network architecture visualization, and documentation. We create solutions that help enterprise IT teams plan, visualize, and document their environments.',
 			features: [
-				'Training dashboards and simulations',
-				'Practice admin environments',
-				'Learning progress analytics',
-				'Configuration training labs',
-				'Assessment and reporting tools'
+				'Enterprise IT infrastructure planning tools',
+				'Network architecture visualization',
+				'Enterprise IT documentation platforms',
+				'Configuration reference tools',
+				'IT infrastructure mapping and diagramming'
 			],
 			featureIcons: [Server, LayoutDashboard, Activity, Settings],
 			icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01'
@@ -35,7 +35,7 @@
 
 <svelte:head>
 	<title>Services | Teller Technologies</title>
-	<meta name="description" content="We build training platforms and enterprise IT tools for organizations." />
+	<meta name="description" content="We build web-based enterprise IT training, planning, infrastructure, and documentation tools for IT professionals and education organizations." />
 </svelte:head>
 
 <!-- Hero Section -->
@@ -46,7 +46,7 @@
 				What We <span class="gradient-text">Build</span>
 			</h1>
 			<p class="text-xl text-gray-400 leading-relaxed">
-				We create training platforms and enterprise IT tools for organizations.
+				We build web-based enterprise IT training, planning, infrastructure, and documentation tools.
 			</p>
 		</div>
 	</div>
@@ -113,7 +113,7 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 		<h2 class="text-3xl font-bold text-white mb-4">Have a Project in Mind?</h2>
 		<p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-			Whether you need a training platform or enterprise IT tools, we'd love to discuss how we can help.
+			Whether you need training tools, infrastructure planning solutions, or documentation platforms, we'd love to discuss how we can help.
 		</p>
 		<a href="/contact" class="btn-primary inline-flex items-center gap-2">
 			Start a Conversation

@@ -18,8 +18,8 @@
 		href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
 		rel="stylesheet"
 	/>
-	<title>Teller Technologies | IT Training & Education Tools</title>
-	<meta name="description" content="Teller Technologies - IT training platforms and educational tools for enterprise IT and education organizations." />
+	<title>Teller Technologies | Enterprise IT Training, Planning & Documentation Tools</title>
+	<meta name="description" content="Teller Technologies builds web-based enterprise IT training, planning, infrastructure, and documentation tools for IT professionals and education organizations." />
 </svelte:head>
 
 <div class="min-h-screen flex flex-col">

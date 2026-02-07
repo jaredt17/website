@@ -52,7 +52,7 @@
 
 <svelte:head>
 	<title>Contact | Teller Technologies</title>
-	<meta name="description" content="Get in touch with Teller Technologies for IT training platforms, educational tools, and learning solutions." />
+	<meta name="description" content="Get in touch with Teller Technologies for enterprise IT training, planning, infrastructure, and documentation tools." />
 </svelte:head>
 
 <!-- Hero Section -->
@@ -63,7 +63,7 @@
 				Let's <span class="gradient-text">Connect</span>
 			</h1>
 			<p class="text-xl text-gray-400 leading-relaxed">
-				Have a project in mind, need training for your team, or want to learn more about our solutions? We'd love to hear from you.
+				Need training tools, infrastructure planning solutions, or documentation platforms? We'd love to hear from you.
 			</p>
 		</div>
 	</div>
@@ -77,7 +77,7 @@
 			<div class="lg:col-span-1">
 				<h2 class="text-2xl font-bold text-white mb-6">Get in Touch</h2>
 				<p class="text-gray-400 mb-8">
-					Whether you need training solutions for your team or want to discuss a project, we're here to help.
+					Whether you need training tools, planning solutions, or documentation platforms, we're here to help.
 				</p>
 
 				<div class="space-y-6">
@@ -225,23 +225,23 @@
 
 		<div class="space-y-4">
 			<div class="card p-6">
-				<h3 class="text-lg font-semibold text-white mb-2">What types of projects do you work on?</h3>
+				<h3 class="text-lg font-semibold text-white mb-2">What types of tools do you build?</h3>
 				<p class="text-gray-400">
-					We specialize in IT training platforms and custom training tools for IT teams. Our focus is on helping enterprise and education organizations build effective training programs.
+					We build web-based enterprise IT training, planning, infrastructure, and documentation tools. Our focus is on helping IT professionals and education organizations with practical, hands-on tools.
 				</p>
 			</div>
 
 			<div class="card p-6">
-				<h3 class="text-lg font-semibold text-white mb-2">Do you build custom training platforms?</h3>
+				<h3 class="text-lg font-semibold text-white mb-2">Who are your tools for?</h3>
 				<p class="text-gray-400">
-					Yes, we create custom training solutions including interactive learning platforms, virtual lab environments, and certification preparation tools tailored to your organization's needs.
+					Our tools are built for IT professionals, higher education students, and organizations that need training, infrastructure planning, and documentation solutions.
 				</p>
 			</div>
 
 			<div class="card p-6">
 				<h3 class="text-lg font-semibold text-white mb-2">Are your tools available online?</h3>
 				<p class="text-gray-400">
-					Yes, our training tools and platforms are web-based, accessible from any modern browser. We focus on building tools that learners and organizations can use from anywhere.
+					Yes, our tools are web-based and accessible from any modern browser. We focus on building tools that IT professionals and students can use from anywhere.
 				</p>
 			</div>
 		</div>

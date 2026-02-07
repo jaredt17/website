@@ -14,7 +14,7 @@
 					<span class="text-xl font-semibold text-white">Teller Technologies</span>
 				</div>
 				<p class="text-gray-400 max-w-md">
-					Building training platforms and learning tools for enterprise IT and education. We help organizations develop their teams.
+					Web-based enterprise IT training, planning, infrastructure, and documentation tools for IT professionals and education organizations.
 				</p>
 			</div>
 

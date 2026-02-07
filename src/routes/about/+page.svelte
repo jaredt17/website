@@ -18,11 +18,11 @@
 	];
 
 	const expertise = [
-		'Training platform development',
-		'Enterprise IT learning tools',
-		'Hands-on lab environments',
-		'Modern web technologies',
-		'IT certification preparation'
+		'Enterprise IT training & education tools',
+		'IT infrastructure planning tools',
+		'Network architecture visualization',
+		'Enterprise IT documentation platforms',
+		'Modern web technologies'
 	];
 
 	const industries = [
@@ -35,7 +35,7 @@
 
 <svelte:head>
 	<title>About | Teller Technologies</title>
-	<meta name="description" content="Learn about Teller Technologies - our mission, values, and expertise in enterprise IT training and education tools." />
+	<meta name="description" content="Learn about Teller Technologies - our mission, values, and expertise in web-based enterprise IT training, planning, infrastructure, and documentation tools." />
 </svelte:head>
 
 <!-- Hero Section -->
@@ -47,7 +47,7 @@
 				<span class="gradient-text">IT Enterprise</span>
 			</h1>
 			<p class="text-xl text-gray-400 leading-relaxed">
-				Teller Technologies builds training platforms and tools that help IT organizations develop their teams and build IT skills.
+				Teller Technologies builds web-based enterprise IT training, planning, infrastructure, and documentation tools used to train and educate IT professionals and students.
 			</p>
 		</div>
 	</div>
@@ -61,13 +61,13 @@
 				<h2 class="text-3xl font-bold text-white mb-6">Our Story</h2>
 				<div class="space-y-4 text-gray-400">
 					<p>
-						After years of working in enterprise IT environments, we saw a consistent pattern: organizations struggling to train and upskill their IT teams while lacking access to the right tools and platforms.
+						After years of working in enterprise IT environments, we saw a consistent pattern: organizations struggling to train their IT teams and lacking access to practical planning and documentation tools.
 					</p>
 					<p>
-						Teller Technologies was born from the belief that quality IT training and tooling shouldn't be gatekept. We're building platforms that make professional development accessible and effective.
+						Teller Technologies was born from the belief that quality IT training, planning, and documentation tools shouldn't be gatekept. We're building tools that make professional development accessible and effective.
 					</p>
 					<p>
-						Our focus is on creating training solutions and IT learning tools that are powerful, intuitive, and built by engineers who understand the real-world challenges of enterprise IT.
+						Our focus is on creating web-based enterprise IT training, planning, infrastructure, and documentation tools that are powerful, intuitive, and built by engineers who understand the real-world challenges of enterprise IT.
 					</p>
 				</div>
 			</div>
@@ -91,6 +91,7 @@
 								<span class="px-3 py-1 rounded-full bg-primary-500/10 text-primary-400 text-sm">Enterprise IT</span>
 								<span class="px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-sm">Training</span>
 								<span class="px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-sm">Education</span>
+								<span class="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">IT Infrastructure</span>
 							</div>
 						</div>
 					</div>
@@ -132,7 +133,7 @@
 		<div class="text-center mb-16">
 			<h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Industries We Serve</h2>
 			<p class="text-gray-400 max-w-2xl mx-auto">
-				We partner with organizations across diverse sectors, bringing training and educational solutions tailored to each industry's needs.
+				We build tools for organizations across diverse sectors, delivering training, planning, and documentation solutions tailored to each industry's needs.
 			</p>
 		</div>
 
@@ -179,7 +180,7 @@
 		<div class="max-w-2xl mx-auto text-center">
 			<h2 class="text-3xl font-bold text-white mb-6">Meet the Founder</h2>
 			<p class="text-gray-400 mb-6">
-				Teller Technologies was founded by Jared Teller with a mission to build better training and tooling solutions for enterprise IT organizations.
+				Teller Technologies was founded by Jared Teller with a mission to build web-based enterprise IT training, planning, IT infrastructure, and documentation tools for enterprise IT and education organizations.
 			</p>
 			<a
 				href="https://www.linkedin.com/in/jared-teller/"
@@ -201,7 +202,7 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 		<h2 class="text-3xl font-bold text-white mb-4">Want to Work Together?</h2>
 		<p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-			Whether you need a training platform for your team or want to discuss IT education tools, we'd love to hear from you.
+			Whether you need training tools, infrastructure planning solutions, or documentation platforms, we'd love to hear from you.
 		</p>
 		<a href="/contact" class="btn-primary inline-flex items-center gap-2">
 			Get in Touch
