@@ -8,7 +8,7 @@
 		{
 			icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01',
 			title: 'Planning, Infrastructure & Documentation',
-			description: 'Purpose-built tools for IT infrastructure planning, network architecture visualization, and documentation.'
+			description: 'Purpose-built tools for enterprise IT infrastructure planning and documentation.'
 		}
 	];
 
@@ -16,7 +16,6 @@
 		'Enterprise IT training tools',
 		'Hands-on lab environments',
 		'IT infrastructure planning tools',
-		'Network architecture visualization',
 		'Enterprise IT documentation tools'
 	];
 </script>
@@ -91,7 +90,7 @@
 					Training, Planning & Documentation Tools
 				</h2>
 				<p class="text-gray-400 mb-6 text-lg">
-					We build web-based tools that help IT organizations train their teams, plan infrastructure, and document their environments. From interactive learning tools to network architecture visualization, we create the tools that drive skill development.
+					We build web-based tools that help IT organizations train their teams, plan infrastructure, and document their environments. From interactive learning tools to IT infrastructure planning, we create the tools that drive skill development.
 				</p>
 				<ul class="space-y-3 mb-8">
 					{#each capabilities as capability}

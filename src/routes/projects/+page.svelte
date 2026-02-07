@@ -19,10 +19,9 @@
 		{
 			name: 'Planning, IT Infrastructure & Documentation',
 			tagline: 'Enterprise IT Infrastructure Planning & Documentation Tools',
-			description: 'Purpose-built tools for enterprise IT infrastructure planning, network architecture visualization, and documentation. We create solutions that help enterprise IT teams plan, visualize, and document their environments.',
+			description: 'Purpose-built tools for enterprise IT infrastructure planning and documentation. We create solutions that help enterprise IT teams plan and document their environments.',
 			features: [
 				'Enterprise IT infrastructure planning tools',
-				'Network architecture visualization',
 				'Enterprise IT documentation platforms',
 				'Configuration reference tools',
 				'IT infrastructure mapping and diagramming'

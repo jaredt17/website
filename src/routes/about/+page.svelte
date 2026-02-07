@@ -20,7 +20,6 @@
 	const expertise = [
 		'Enterprise IT training & education tools',
 		'IT infrastructure planning tools',
-		'Network architecture visualization',
 		'Enterprise IT documentation platforms',
 		'Modern web technologies'
 	];
