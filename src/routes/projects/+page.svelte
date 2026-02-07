@@ -5,7 +5,7 @@
 		{
 			name: 'Training & Education Tools',
 			tagline: 'Enterprise IT Training Solutions',
-			description: 'Web-based training tools that help IT organizations develop their teams. We create interactive learning experiences with hands-on labs, certification preparation, and skills assessment.',
+			description: 'Web-based training tools that help enterprise IT organizations develop their teams. We create interactive learning experiences with hands-on labs, certification preparation, and skills assessment.',
 			features: [
 				'Interactive training tools',
 				'Virtual lab environments',
@@ -17,7 +17,7 @@
 			icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253'
 		},
 		{
-			name: 'Planning, IT Infrastructure & Documentation',
+			name: 'Planning, Enterprise IT Infrastructure & Documentation',
 			tagline: 'Enterprise IT Infrastructure Planning & Documentation Tools',
 			description: 'Purpose-built tools for enterprise IT infrastructure planning and documentation. We create solutions that help enterprise IT teams plan and document their environments.',
 			features: [
@@ -34,7 +34,7 @@
 
 <svelte:head>
 	<title>Services | Teller Technologies</title>
-	<meta name="description" content="We build web-based enterprise IT training, planning, infrastructure, and documentation tools for IT professionals and education organizations." />
+	<meta name="description" content="We build web-based enterprise IT training, planning, infrastructure, and documentation tools for enterprise IT professionals and education organizations." />
 </svelte:head>
 
 <!-- Hero Section -->

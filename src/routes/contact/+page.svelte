@@ -227,21 +227,21 @@
 			<div class="card p-6">
 				<h3 class="text-lg font-semibold text-white mb-2">What types of tools do you build?</h3>
 				<p class="text-gray-400">
-					We build web-based enterprise IT training, planning, infrastructure, and documentation tools. Our focus is on helping IT professionals and education organizations with practical, hands-on tools.
+					We build web-based enterprise IT training, planning, infrastructure, and documentation tools. Our focus is on helping enterprise IT professionals and education organizations with practical, hands-on tools.
 				</p>
 			</div>
 
 			<div class="card p-6">
 				<h3 class="text-lg font-semibold text-white mb-2">Who are your tools for?</h3>
 				<p class="text-gray-400">
-					Our tools are built for IT professionals, higher education students, and organizations that need training, infrastructure planning, and documentation solutions.
+					Our tools are built for enterprise IT professionals, higher education students, and organizations that need training, infrastructure planning, and documentation solutions.
 				</p>
 			</div>
 
 			<div class="card p-6">
 				<h3 class="text-lg font-semibold text-white mb-2">Are your tools available online?</h3>
 				<p class="text-gray-400">
-					Yes, our tools are web-based and accessible from any modern browser. We focus on building tools that IT professionals and students can use from anywhere.
+					Yes, our tools are web-based and accessible from any modern browser. We focus on building tools that enterprise IT professionals and students can use from anywhere.
 				</p>
 			</div>
 		</div>

@@ -19,7 +19,7 @@
 		rel="stylesheet"
 	/>
 	<title>Teller Technologies | Enterprise IT Training, Planning & Documentation Tools</title>
-	<meta name="description" content="Teller Technologies builds web-based enterprise IT training, planning, infrastructure, and documentation tools for IT professionals and education organizations." />
+	<meta name="description" content="Teller Technologies builds web-based enterprise IT training, planning, infrastructure, and documentation tools for enterprise IT professionals and education organizations." />
 </svelte:head>
 
 <div class="min-h-screen flex flex-col">
