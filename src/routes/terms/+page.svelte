@@ -51,7 +51,7 @@
 
 		<h2 class="text-xl font-semibold text-white mb-3">Contact Us</h2>
 		<p class="text-gray-400">
-			If you have any questions about these Terms of Service, please contact us at <a href="mailto:contact@tellertechnologies.io" class="text-primary-400 hover:text-primary-300">contact@tellertechnologies.io</a>.
+			If you have any questions about these Terms of Service, please contact us at <a href="mailto:contact@tellertechnologies.io" class="text-accent-brand hover:text-accent-brand/80">contact@tellertechnologies.io</a>.
 		</p>
 	</div>
 </section>

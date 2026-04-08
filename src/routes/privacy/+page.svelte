@@ -43,7 +43,7 @@
 
 		<h2 class="text-xl font-semibold text-white mb-3">Your Rights</h2>
 		<p class="text-gray-400 mb-10">
-			You have the right to request access to, correction of, or deletion of your personal information. To exercise these rights, please contact us at <a href="mailto:contact@tellertechnologies.io" class="text-primary-400 hover:text-primary-300">contact@tellertechnologies.io</a>.
+			You have the right to request access to, correction of, or deletion of your personal information. To exercise these rights, please contact us at <a href="mailto:contact@tellertechnologies.io" class="text-accent-brand hover:text-accent-brand/80">contact@tellertechnologies.io</a>.
 		</p>
 
 		<h2 class="text-xl font-semibold text-white mb-3">Changes to This Policy</h2>
@@ -53,7 +53,7 @@
 
 		<h2 class="text-xl font-semibold text-white mb-3">Contact Us</h2>
 		<p class="text-gray-400">
-			If you have any questions about this Privacy Policy, please contact us at <a href="mailto:contact@tellertechnologies.io" class="text-primary-400 hover:text-primary-300">contact@tellertechnologies.io</a>.
+			If you have any questions about this Privacy Policy, please contact us at <a href="mailto:contact@tellertechnologies.io" class="text-accent-brand hover:text-accent-brand/80">contact@tellertechnologies.io</a>.
 		</p>
 	</div>
 </section>
