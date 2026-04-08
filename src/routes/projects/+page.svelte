@@ -1,124 +1,171 @@
 <script lang="ts">
-	import { Monitor, FlaskConical, BarChart3, Award, Server, LayoutDashboard, Activity, Settings } from 'lucide-svelte';
-
-	const serviceAreas = [
-		{
-			name: 'Training & Education Tools',
-			tagline: 'Enterprise IT Training Solutions',
-			description: 'Web-based training tools that help enterprise IT organizations develop their teams. We create interactive learning experiences with hands-on labs, certification preparation, and skills assessment.',
-			features: [
-				'Interactive training tools',
-				'Virtual lab environments',
-				'Certification preparation modules',
-				'Skills assessment and reporting',
-				'Hands-on practice environments'
-			],
-			featureIcons: [Monitor, FlaskConical, BarChart3, Award],
-			icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253'
-		},
-		{
-			name: 'Planning, Enterprise IT Infrastructure & Documentation',
-			tagline: 'Enterprise IT Infrastructure Planning & Documentation Tools',
-			description: 'Purpose-built tools for enterprise IT infrastructure planning and documentation. We create solutions that help enterprise IT teams plan and document their environments.',
-			features: [
-				'Enterprise IT infrastructure planning tools',
-				'Enterprise IT documentation platforms',
-				'Configuration reference tools',
-				'IT infrastructure mapping and diagramming'
-			],
-			featureIcons: [Server, LayoutDashboard, Activity, Settings],
-			icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01'
-		}
-	];
+  import { Layers, Monitor, Server, ExternalLink, Check, ArrowRight } from 'lucide-svelte';
 </script>
 
 <svelte:head>
-	<title>Services | Teller Technologies</title>
-	<meta name="description" content="We build web-based enterprise IT training, planning, infrastructure, and documentation tools for enterprise IT professionals and education organizations." />
+  <title>Projects | Teller Technologies</title>
+  <meta name="description" content="Explore the products and tools built by Teller Technologies — from NetSandbox network simulation to enterprise IT training and documentation solutions." />
 </svelte:head>
 
 <!-- Hero Section -->
 <section class="py-20 sm:py-28">
-	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-		<div class="max-w-3xl">
-			<h1 class="text-4xl sm:text-5xl font-bold text-white mb-6">
-				What We <span class="gradient-text">Build</span>
-			</h1>
-			<p class="text-xl text-gray-400 leading-relaxed">
-				We build web-based enterprise IT training, planning, infrastructure, and documentation tools.
-			</p>
-		</div>
-	</div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl">
+      <h1 class="text-4xl sm:text-5xl font-bold text-white mb-6">
+        Our <span class="gradient-text">Projects</span>
+      </h1>
+      <p class="text-xl text-muted-foreground leading-relaxed">
+        We build tools that help IT professionals learn, plan, and document. Here's what we're working on.
+      </p>
+    </div>
+  </div>
 </section>
 
-<!-- Service Areas -->
-{#each serviceAreas as service, i}
-	<section class="py-16 {i % 2 === 0 ? 'bg-surface-800/50' : ''}">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="grid lg:grid-cols-2 gap-12 items-center {i % 2 === 1 ? 'lg:flex-row-reverse' : ''}">
-				<div class="{i % 2 === 1 ? 'lg:order-2' : ''}">
-					<div class="flex items-center gap-4 mb-4">
-						<div class="w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center">
-							<svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={service.icon} />
-							</svg>
-						</div>
-						<h2 class="text-3xl font-bold text-white">{service.name}</h2>
-					</div>
-					<p class="text-lg text-primary-400 mb-4">{service.tagline}</p>
-					<p class="text-gray-400 mb-8">{service.description}</p>
+<!-- NetSandbox — Flagship Product -->
+<section class="pb-16 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto">
+    <div class="glass-card p-8 sm:p-10 relative overflow-hidden" style="box-shadow: 0 0 60px oklch(0.696 0.17 162.48 / 8%), 0 25px 50px oklch(0 0 0 / 30%);">
+      <div class="absolute -top-20 -right-20 w-60 h-60 bg-accent-brand/10 rounded-full blur-3xl pointer-events-none"></div>
 
-					<h3 class="text-lg font-semibold text-white mb-4">Capabilities</h3>
-					<ul class="space-y-3 mb-8">
-						{#each service.features as feature}
-							<li class="flex items-start gap-3 text-gray-300">
-								<svg class="w-5 h-5 text-accent-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-								</svg>
-								{feature}
-							</li>
-						{/each}
-					</ul>
+      <div class="relative grid lg:grid-cols-5 gap-10 items-center">
+        <div class="lg:col-span-3">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-12 h-12 rounded-xl bg-accent-brand/10 border border-accent-brand/20 flex items-center justify-center">
+              <Layers class="w-6 h-6 text-accent-brand" />
+            </div>
+            <div>
+              <h2 class="text-2xl sm:text-3xl font-bold text-white">NetSandbox</h2>
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-green-500/10 border border-green-500/20 text-xs font-medium text-green-400 mt-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-green-400"></span>
+                Available Now
+              </span>
+            </div>
+          </div>
 
-					<a href="/contact" class="btn-primary inline-flex items-center gap-2">
-						Discuss Your Project
-						<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-						</svg>
-					</a>
-				</div>
+          <p class="text-lg text-muted-foreground mb-6 leading-relaxed">
+            A visual network topology builder for learning, certification prep, and documentation. Design networks in your browser, get instant validation feedback, and learn through guided lessons.
+          </p>
 
-				<div class="{i % 2 === 1 ? 'lg:order-1' : ''}">
-					<div class="card p-8 bg-surface-900">
-						<div class="grid grid-cols-2 gap-4">
-							{#each service.features.slice(0, 4) as feature, j}
-								<div class="p-4 bg-surface-800 rounded-lg">
-									<div class="w-8 h-8 rounded-full bg-primary-500/20 flex items-center justify-center mb-3">
-										<svelte:component this={service.featureIcons[j]} class="w-4 h-4 text-primary-400" />
-									</div>
-									<p class="text-gray-300 text-sm">{feature}</p>
-								</div>
-							{/each}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-{/each}
+          <ul class="space-y-3 mb-8">
+            {#each [
+              'Browser-based — no install, no VMs',
+              'Guided lessons covering routing, switching, security & more',
+              'Protocol simulation: OSPF, BGP, STP, ACLs, NAT',
+              'Free tier available — upgrade when you need more'
+            ] as feature}
+              <li class="flex items-start gap-3 text-foreground">
+                <Check class="w-5 h-5 text-accent-brand flex-shrink-0 mt-0.5" />
+                {feature}
+              </li>
+            {/each}
+          </ul>
+
+          <div class="flex flex-col sm:flex-row items-start gap-3">
+            <a href="https://app.netsandbox.io" class="btn-primary inline-flex items-center gap-2">
+              Try NetSandbox
+              <ArrowRight class="w-4 h-4" />
+            </a>
+            <a href="https://netsandbox.io" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-muted-foreground hover:text-foreground hover:border-accent-brand/30 transition-colors text-sm font-medium">
+              Learn More
+              <ExternalLink class="w-4 h-4" />
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-2">
+          <div class="card p-6 bg-background">
+            <div class="flex items-center gap-2 mb-4">
+              <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500/80"></div>
+              <span class="ml-3 text-muted-foreground text-xs font-mono">app.netsandbox.io</span>
+            </div>
+            <div class="space-y-3">
+              <div class="flex items-center justify-between p-3 bg-card rounded-lg">
+                <span class="text-muted-foreground text-sm">Topologies</span>
+                <span class="text-accent-brand font-mono text-sm">Design & Validate</span>
+              </div>
+              <div class="flex items-center justify-between p-3 bg-card rounded-lg">
+                <span class="text-muted-foreground text-sm">Protocols</span>
+                <span class="text-green-400 font-mono text-sm">OSPF, BGP, STP</span>
+              </div>
+              <div class="flex items-center justify-between p-3 bg-card rounded-lg">
+                <span class="text-muted-foreground text-sm">Learning Paths</span>
+                <span class="text-accent-brand font-mono text-sm">8 paths</span>
+              </div>
+              <div class="flex items-center justify-between p-3 bg-card rounded-lg">
+                <span class="text-muted-foreground text-sm">Price</span>
+                <span class="text-green-400 font-mono text-sm">Free to start</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Coming Soon Products -->
+<section class="pb-24 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto">
+    <div class="glow-divider mb-16"></div>
+    <h3 class="text-lg font-semibold text-muted-foreground uppercase tracking-wider mb-8">In Development</h3>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="card p-8 opacity-80">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
+            <Monitor class="w-5 h-5 text-muted-foreground" />
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white">Training & Education Tools</h3>
+            <span class="inline-flex items-center px-2 py-0.5 rounded-full bg-secondary text-xs font-medium text-muted-foreground mt-1">
+              Coming Soon
+            </span>
+          </div>
+        </div>
+        <p class="text-sm text-muted-foreground mb-4">Enterprise IT training solutions</p>
+        <p class="text-muted-foreground text-sm leading-relaxed">
+          Web-based training with hands-on labs, certification prep, skills assessment, and reporting for enterprise IT organizations.
+        </p>
+      </div>
+
+      <div class="card p-8 opacity-80">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
+            <Server class="w-5 h-5 text-muted-foreground" />
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white">IT Infrastructure Planning & Documentation</h3>
+            <span class="inline-flex items-center px-2 py-0.5 rounded-full bg-secondary text-xs font-medium text-muted-foreground mt-1">
+              Coming Soon
+            </span>
+          </div>
+        </div>
+        <p class="text-sm text-muted-foreground mb-4">Enterprise IT documentation tools</p>
+        <p class="text-muted-foreground text-sm leading-relaxed">
+          Purpose-built tools for infrastructure planning, documentation, configuration reference, and IT infrastructure mapping.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- CTA Section -->
-<section class="py-20">
-	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-		<h2 class="text-3xl font-bold text-white mb-4">Have a Project in Mind?</h2>
-		<p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-			Whether you need training tools, infrastructure planning solutions, or documentation platforms, we'd love to discuss how we can help.
-		</p>
-		<a href="/contact" class="btn-primary inline-flex items-center gap-2">
-			Start a Conversation
-			<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-			</svg>
-		</a>
-	</div>
+<section class="pb-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-bold text-white mb-4">Interested in What We're Building?</h2>
+    <p class="text-muted-foreground mb-8 max-w-2xl mx-auto">
+      Try NetSandbox for free, or get in touch to learn more about our upcoming tools.
+    </p>
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a href="https://app.netsandbox.io" class="btn-primary inline-flex items-center gap-2">
+        Try NetSandbox Free
+        <ArrowRight class="w-4 h-4" />
+      </a>
+      <a href="/contact" class="btn-secondary inline-flex items-center gap-2">
+        Get in Touch
+      </a>
+    </div>
+  </div>
 </section>
