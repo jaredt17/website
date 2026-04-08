@@ -26,7 +26,7 @@
 
 	const industries = [
 		{ name: 'Enterprise IT', icon: 'M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z' },
-		{ name: 'Higher Education', icon: 'M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222' },
+		{ name: 'Higher Education', icon: 'M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0112 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222' },
 		{ name: 'K-12 Education', icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253' },
 		{ name: 'Managed Service Providers', icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01' }
 	];
@@ -45,7 +45,7 @@
 				Building the Future of
 				<span class="gradient-text">IT Enterprise</span>
 			</h1>
-			<p class="text-xl text-gray-400 leading-relaxed">
+			<p class="text-xl text-muted-foreground leading-relaxed">
 				Teller Technologies builds web-based enterprise IT training, planning, infrastructure, and documentation tools used to train and educate IT professionals and students.
 			</p>
 		</div>
@@ -53,12 +53,12 @@
 </section>
 
 <!-- Story Section -->
-<section class="py-16 bg-surface-800/50">
+<section class="py-16 bg-card/50">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="grid lg:grid-cols-2 gap-12 items-center">
 			<div>
 				<h2 class="text-3xl font-bold text-white mb-6">Our Story</h2>
-				<div class="space-y-4 text-gray-400">
+				<div class="space-y-4 text-muted-foreground">
 					<p>
 						After years of working in enterprise IT environments, we saw a consistent pattern: organizations struggling to train their enterprise IT teams and lacking access to practical planning and documentation tools.
 					</p>
@@ -74,20 +74,20 @@
 				<div class="card p-8">
 					<div class="space-y-6">
 						<div class="flex items-center gap-4">
-							<div class="w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center">
-								<svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<div class="w-12 h-12 rounded-lg bg-accent-brand/20 flex items-center justify-center">
+								<svg class="w-6 h-6 text-accent-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
 								</svg>
 							</div>
 							<div>
 								<div class="text-2xl font-bold text-white">Teller Technologies</div>
-								<div class="text-gray-400">LLC</div>
+								<div class="text-muted-foreground">LLC</div>
 							</div>
 						</div>
-						<div class="border-t border-surface-600 pt-6">
-							<div class="text-sm text-gray-500 uppercase tracking-wider mb-2">Focus Areas</div>
+						<div class="border-t border-border pt-6">
+							<div class="text-sm text-muted-foreground uppercase tracking-wider mb-2">Focus Areas</div>
 							<div class="flex flex-wrap gap-2">
-								<span class="px-3 py-1 rounded-full bg-primary-500/10 text-primary-400 text-sm">Enterprise IT</span>
+								<span class="px-3 py-1 rounded-full bg-accent-brand/10 text-accent-brand text-sm">Enterprise IT</span>
 								<span class="px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-sm">Training</span>
 								<span class="px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-sm">Education</span>
 								<span class="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">IT Infrastructure</span>
@@ -105,7 +105,7 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="text-center mb-16">
 			<h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Our Values</h2>
-			<p class="text-gray-400 max-w-2xl mx-auto">
+			<p class="text-muted-foreground max-w-2xl mx-auto">
 				The principles that guide everything we build and every partnership we form.
 			</p>
 		</div>
@@ -113,13 +113,13 @@
 		<div class="grid md:grid-cols-3 gap-8">
 			{#each values as value}
 				<div class="card p-8 text-center">
-					<div class="w-16 h-16 rounded-full bg-primary-500/10 flex items-center justify-center mx-auto mb-6">
-						<svg class="w-8 h-8 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<div class="w-16 h-16 rounded-full bg-accent-brand/10 flex items-center justify-center mx-auto mb-6">
+						<svg class="w-8 h-8 text-accent-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={value.icon} />
 						</svg>
 					</div>
 					<h3 class="text-xl font-semibold text-white mb-3">{value.title}</h3>
-					<p class="text-gray-400">{value.description}</p>
+					<p class="text-muted-foreground">{value.description}</p>
 				</div>
 			{/each}
 		</div>
@@ -127,20 +127,20 @@
 </section>
 
 <!-- Industries Section -->
-<section class="py-20 bg-surface-800/50">
+<section class="py-20 bg-card/50">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="text-center mb-16">
 			<h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Industries We Serve</h2>
-			<p class="text-gray-400 max-w-2xl mx-auto">
+			<p class="text-muted-foreground max-w-2xl mx-auto">
 				We build tools for organizations across diverse sectors, delivering training, planning, and documentation solutions tailored to each industry's needs.
 			</p>
 		</div>
 
 		<div class="flex flex-wrap justify-center gap-4">
 			{#each industries as industry (industry.name)}
-				<div class="card p-6 text-center hover:border-primary-500/50 transition-colors group w-40 sm:w-48">
-					<div class="w-12 h-12 rounded-lg bg-primary-500/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary-500/20 transition-colors">
-						<svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+				<div class="card p-6 text-center hover:border-accent-brand/30 transition-colors group w-40 sm:w-48">
+					<div class="w-12 h-12 rounded-lg bg-accent-brand/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-accent-brand/20 transition-colors">
+						<svg class="w-6 h-6 text-accent-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={industry.icon} />
 						</svg>
 					</div>
@@ -156,13 +156,13 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="max-w-2xl mx-auto text-center">
 			<h2 class="text-3xl font-bold text-white mb-6">Technical Expertise</h2>
-			<p class="text-gray-400 mb-8">
+			<p class="text-muted-foreground mb-8">
 				We bring deep experience building platforms for enterprise IT organizations.
 			</p>
 			<ul class="space-y-4 text-left max-w-md mx-auto">
 				{#each expertise as item}
-					<li class="flex items-center gap-3 text-gray-300">
-						<svg class="w-5 h-5 text-accent-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<li class="flex items-center gap-3 text-foreground">
+						<svg class="w-5 h-5 text-accent-brand flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 						</svg>
 						{item}
@@ -174,11 +174,11 @@
 </section>
 
 <!-- Founder Section -->
-<section class="py-20 bg-surface-800/50">
+<section class="py-20 bg-card/50">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="max-w-2xl mx-auto text-center">
 			<h2 class="text-3xl font-bold text-white mb-6">Meet the Founder</h2>
-			<p class="text-gray-400 mb-6">
+			<p class="text-muted-foreground mb-6">
 				Teller Technologies was founded by Jared Teller with a mission to build web-based enterprise IT training, planning, IT infrastructure, and documentation tools for enterprise IT and education organizations.
 			</p>
 			<a
@@ -200,7 +200,7 @@
 <section class="py-20">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 		<h2 class="text-3xl font-bold text-white mb-4">Want to Work Together?</h2>
-		<p class="text-gray-400 mb-8 max-w-2xl mx-auto">
+		<p class="text-muted-foreground mb-8 max-w-2xl mx-auto">
 			Whether you need training tools, infrastructure planning solutions, or documentation platforms, we'd love to hear from you.
 		</p>
 		<a href="/contact" class="btn-primary inline-flex items-center gap-2">

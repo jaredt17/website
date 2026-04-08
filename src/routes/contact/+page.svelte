@@ -62,7 +62,7 @@
 			<h1 class="text-4xl sm:text-5xl font-bold text-white mb-6">
 				Let's <span class="gradient-text">Connect</span>
 			</h1>
-			<p class="text-xl text-gray-400 leading-relaxed">
+			<p class="text-xl text-muted-foreground leading-relaxed">
 				Need training tools, infrastructure planning solutions, or documentation platforms? We'd love to hear from you.
 			</p>
 		</div>
@@ -76,21 +76,21 @@
 			<!-- Contact Info -->
 			<div class="lg:col-span-1">
 				<h2 class="text-2xl font-bold text-white mb-6">Get in Touch</h2>
-				<p class="text-gray-400 mb-8">
+				<p class="text-muted-foreground mb-8">
 					Whether you need training tools, planning solutions, or documentation platforms, we're here to help.
 				</p>
 
 				<div class="space-y-6">
 					{#each contactMethods as method}
 						<a href={method.href} class="flex items-start gap-4 group">
-							<div class="w-12 h-12 rounded-lg bg-primary-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary-500/20 transition-colors">
-								<svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<div class="w-12 h-12 rounded-lg bg-accent-brand/10 flex items-center justify-center flex-shrink-0 group-hover:bg-accent-brand/20 transition-colors">
+								<svg class="w-6 h-6 text-accent-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={method.icon} />
 								</svg>
 							</div>
 							<div>
-								<div class="text-sm text-gray-500 uppercase tracking-wider">{method.title}</div>
-								<div class="text-white group-hover:text-primary-400 transition-colors">{method.value}</div>
+								<div class="text-sm text-muted-foreground uppercase tracking-wider">{method.title}</div>
+								<div class="text-white group-hover:text-accent-brand transition-colors">{method.value}</div>
 							</div>
 						</a>
 					{/each}
@@ -98,7 +98,7 @@
 
 				<div class="mt-12 p-6 card">
 					<h3 class="text-lg font-semibold text-white mb-3">Response Time</h3>
-					<p class="text-gray-400 text-sm">
+					<p class="text-muted-foreground text-sm">
 						We typically respond within 24-48 business hours. For urgent matters, please indicate in your message.
 					</p>
 				</div>
@@ -115,7 +115,7 @@
 								</svg>
 							</div>
 							<h3 class="text-2xl font-bold text-white mb-2">Message Sent!</h3>
-							<p class="text-gray-400 mb-6">Thank you for reaching out. We'll get back to you soon.</p>
+							<p class="text-muted-foreground mb-6">Thank you for reaching out. We'll get back to you soon.</p>
 							<button onclick={() => { formStatus = 'idle'; formData = { name: '', email: '', company: '', subject: '', message: '' }; }} class="btn-secondary">
 								Send Another Message
 							</button>
@@ -129,24 +129,24 @@
 						<form onsubmit={handleSubmit} class="space-y-6">
 							<div class="grid sm:grid-cols-2 gap-6">
 								<div>
-									<label for="name" class="block text-sm font-medium text-gray-300 mb-2">Name *</label>
+									<label for="name" class="block text-sm font-medium text-muted-foreground mb-2">Name *</label>
 									<input
 										type="text"
 										id="name"
 										bind:value={formData.name}
 										required
-										class="w-full px-4 py-3 rounded-lg bg-surface-900 border border-surface-600 text-white placeholder-gray-500 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
+										class="w-full px-4 py-3 rounded-lg bg-background border border-border text-white placeholder-muted-foreground focus:outline-none focus:border-accent-brand focus:ring-1 focus:ring-accent-brand transition-colors"
 										placeholder="Your name"
 									/>
 								</div>
 								<div>
-									<label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email *</label>
+									<label for="email" class="block text-sm font-medium text-muted-foreground mb-2">Email *</label>
 									<input
 										type="email"
 										id="email"
 										bind:value={formData.email}
 										required
-										class="w-full px-4 py-3 rounded-lg bg-surface-900 border border-surface-600 text-white placeholder-gray-500 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
+										class="w-full px-4 py-3 rounded-lg bg-background border border-border text-white placeholder-muted-foreground focus:outline-none focus:border-accent-brand focus:ring-1 focus:ring-accent-brand transition-colors"
 										placeholder="your@email.com"
 									/>
 								</div>
@@ -154,22 +154,22 @@
 
 							<div class="grid sm:grid-cols-2 gap-6">
 								<div>
-									<label for="company" class="block text-sm font-medium text-gray-300 mb-2">Company</label>
+									<label for="company" class="block text-sm font-medium text-muted-foreground mb-2">Company</label>
 									<input
 										type="text"
 										id="company"
 										bind:value={formData.company}
-										class="w-full px-4 py-3 rounded-lg bg-surface-900 border border-surface-600 text-white placeholder-gray-500 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
+										class="w-full px-4 py-3 rounded-lg bg-background border border-border text-white placeholder-muted-foreground focus:outline-none focus:border-accent-brand focus:ring-1 focus:ring-accent-brand transition-colors"
 										placeholder="Your company"
 									/>
 								</div>
 								<div>
-									<label for="subject" class="block text-sm font-medium text-gray-300 mb-2">Subject *</label>
+									<label for="subject" class="block text-sm font-medium text-muted-foreground mb-2">Subject *</label>
 									<select
 										id="subject"
 										bind:value={formData.subject}
 										required
-										class="w-full px-4 py-3 rounded-lg bg-surface-900 border border-surface-600 text-white focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
+										class="w-full px-4 py-3 rounded-lg bg-background border border-border text-white focus:outline-none focus:border-accent-brand focus:ring-1 focus:ring-accent-brand transition-colors"
 									>
 										<option value="">Select a topic</option>
 										<option value="training">Training Platforms</option>
@@ -181,13 +181,13 @@
 							</div>
 
 							<div>
-								<label for="message" class="block text-sm font-medium text-gray-300 mb-2">Message *</label>
+								<label for="message" class="block text-sm font-medium text-muted-foreground mb-2">Message *</label>
 								<textarea
 									id="message"
 									bind:value={formData.message}
 									required
 									rows="6"
-									class="w-full px-4 py-3 rounded-lg bg-surface-900 border border-surface-600 text-white placeholder-gray-500 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors resize-none"
+									class="w-full px-4 py-3 rounded-lg bg-background border border-border text-white placeholder-muted-foreground focus:outline-none focus:border-accent-brand focus:ring-1 focus:ring-accent-brand transition-colors resize-none"
 									placeholder="Tell us about your project or inquiry..."
 								></textarea>
 							</div>
@@ -219,28 +219,28 @@
 </section>
 
 <!-- FAQ Section -->
-<section class="py-20 bg-surface-800/50">
+<section class="py-20 bg-card/50">
 	<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 		<h2 class="text-2xl font-bold text-white mb-8 text-center">Frequently Asked Questions</h2>
 
 		<div class="space-y-4">
 			<div class="card p-6">
 				<h3 class="text-lg font-semibold text-white mb-2">What types of tools do you build?</h3>
-				<p class="text-gray-400">
+				<p class="text-muted-foreground">
 					We build web-based enterprise IT training, planning, infrastructure, and documentation tools. Our focus is on helping enterprise IT professionals and education organizations with practical, hands-on tools.
 				</p>
 			</div>
 
 			<div class="card p-6">
 				<h3 class="text-lg font-semibold text-white mb-2">Who are your tools for?</h3>
-				<p class="text-gray-400">
+				<p class="text-muted-foreground">
 					Our tools are built for enterprise IT professionals, higher education students, and organizations that need training, infrastructure planning, and documentation solutions.
 				</p>
 			</div>
 
 			<div class="card p-6">
 				<h3 class="text-lg font-semibold text-white mb-2">Are your tools available online?</h3>
-				<p class="text-gray-400">
+				<p class="text-muted-foreground">
 					Yes, our tools are web-based and accessible from any modern browser. We focus on building tools that enterprise IT professionals and students can use from anywhere.
 				</p>
 			</div>
