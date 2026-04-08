@@ -1,4 +1,8 @@
 <script lang="ts">
+	import { Button } from '$lib/components/ui/button/index.js';
+	import { Input } from '$lib/components/ui/input/index.js';
+	import { Textarea } from '$lib/components/ui/textarea/index.js';
+
 	let formData = $state({
 		name: '',
 		email: '',
@@ -116,9 +120,7 @@
 							</div>
 							<h3 class="text-2xl font-bold text-white mb-2">Message Sent!</h3>
 							<p class="text-muted-foreground mb-6">Thank you for reaching out. We'll get back to you soon.</p>
-							<button onclick={() => { formStatus = 'idle'; formData = { name: '', email: '', company: '', subject: '', message: '' }; }} class="btn-secondary">
-								Send Another Message
-							</button>
+							<Button variant="outline" onclick={() => { formStatus = 'idle'; formData = { name: '', email: '', company: '', subject: '', message: '' }; }} class="btn-secondary">Send Another Message</Button>
 						</div>
 					{:else}
 						{#if formStatus === 'error'}
@@ -130,23 +132,23 @@
 							<div class="grid sm:grid-cols-2 gap-6">
 								<div>
 									<label for="name" class="block text-sm font-medium text-muted-foreground mb-2">Name *</label>
-									<input
+									<Input
 										type="text"
 										id="name"
 										bind:value={formData.name}
 										required
-										class="w-full px-4 py-3 rounded-lg bg-background border border-border text-white placeholder-muted-foreground focus:outline-none focus:border-accent-brand focus:ring-1 focus:ring-accent-brand transition-colors"
+										class="bg-background text-white placeholder-muted-foreground"
 										placeholder="Your name"
 									/>
 								</div>
 								<div>
 									<label for="email" class="block text-sm font-medium text-muted-foreground mb-2">Email *</label>
-									<input
+									<Input
 										type="email"
 										id="email"
 										bind:value={formData.email}
 										required
-										class="w-full px-4 py-3 rounded-lg bg-background border border-border text-white placeholder-muted-foreground focus:outline-none focus:border-accent-brand focus:ring-1 focus:ring-accent-brand transition-colors"
+										class="bg-background text-white placeholder-muted-foreground"
 										placeholder="your@email.com"
 									/>
 								</div>
@@ -155,11 +157,11 @@
 							<div class="grid sm:grid-cols-2 gap-6">
 								<div>
 									<label for="company" class="block text-sm font-medium text-muted-foreground mb-2">Company</label>
-									<input
+									<Input
 										type="text"
 										id="company"
 										bind:value={formData.company}
-										class="w-full px-4 py-3 rounded-lg bg-background border border-border text-white placeholder-muted-foreground focus:outline-none focus:border-accent-brand focus:ring-1 focus:ring-accent-brand transition-colors"
+										class="bg-background text-white placeholder-muted-foreground"
 										placeholder="Your company"
 									/>
 								</div>
@@ -182,17 +184,17 @@
 
 							<div>
 								<label for="message" class="block text-sm font-medium text-muted-foreground mb-2">Message *</label>
-								<textarea
+								<Textarea
 									id="message"
 									bind:value={formData.message}
 									required
-									rows="6"
-									class="w-full px-4 py-3 rounded-lg bg-background border border-border text-white placeholder-muted-foreground focus:outline-none focus:border-accent-brand focus:ring-1 focus:ring-accent-brand transition-colors resize-none"
-									placeholder="Tell us about your project or inquiry..."
-								></textarea>
+									rows={6}
+									class="bg-background text-white placeholder-muted-foreground resize-none"
+									placeholder="Tell us about your project..."
+								/>
 							</div>
 
-							<button
+							<Button
 								type="submit"
 								disabled={formStatus === 'sending'}
 								class="btn-primary w-full sm:w-auto flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
@@ -209,7 +211,7 @@
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
 									</svg>
 								{/if}
-							</button>
+							</Button>
 						</form>
 					{/if}
 				</div>

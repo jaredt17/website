@@ -1,5 +1,7 @@
 <script lang="ts">
   import { Layers, Monitor, Server, ExternalLink, Check, ArrowRight } from 'lucide-svelte';
+  import { Badge } from '$lib/components/ui/badge/index.js';
+  import { Separator } from '$lib/components/ui/separator/index.js';
 </script>
 
 <svelte:head>
@@ -35,10 +37,10 @@
             </div>
             <div>
               <h2 class="text-2xl sm:text-3xl font-bold text-white">NetSandbox</h2>
-              <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-green-500/10 border border-green-500/20 text-xs font-medium text-green-400 mt-1">
-                <span class="w-1.5 h-1.5 rounded-full bg-green-400"></span>
+              <Badge variant="outline" class="bg-green-500/10 border-green-500/20 text-green-400 mt-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-green-400 mr-1.5"></span>
                 Available Now
-              </span>
+              </Badge>
             </div>
           </div>
 
@@ -108,7 +110,7 @@
 <!-- Coming Soon Products -->
 <section class="pb-24 px-4 sm:px-6 lg:px-8">
   <div class="max-w-7xl mx-auto">
-    <div class="glow-divider mb-16"></div>
+    <Separator class="glow-divider mb-16" />
     <h3 class="text-lg font-semibold text-muted-foreground uppercase tracking-wider mb-8">In Development</h3>
 
     <div class="grid md:grid-cols-2 gap-6">
@@ -119,9 +121,7 @@
           </div>
           <div>
             <h3 class="text-xl font-semibold text-white">Training & Education Tools</h3>
-            <span class="inline-flex items-center px-2 py-0.5 rounded-full bg-secondary text-xs font-medium text-muted-foreground mt-1">
-              Coming Soon
-            </span>
+            <Badge variant="secondary" class="bg-secondary text-muted-foreground mt-1">Coming Soon</Badge>
           </div>
         </div>
         <p class="text-sm text-muted-foreground mb-4">Enterprise IT training solutions</p>
@@ -137,9 +137,7 @@
           </div>
           <div>
             <h3 class="text-xl font-semibold text-white">IT Infrastructure Planning & Documentation</h3>
-            <span class="inline-flex items-center px-2 py-0.5 rounded-full bg-secondary text-xs font-medium text-muted-foreground mt-1">
-              Coming Soon
-            </span>
+            <Badge variant="secondary" class="bg-secondary text-muted-foreground mt-1">Coming Soon</Badge>
           </div>
         </div>
         <p class="text-sm text-muted-foreground mb-4">Enterprise IT documentation tools</p>

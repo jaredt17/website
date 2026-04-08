@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { Badge } from '$lib/components/ui/badge/index.js';
+
 	const values = [
 		{
 			icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z',
@@ -87,10 +89,10 @@
 						<div class="border-t border-border pt-6">
 							<div class="text-sm text-muted-foreground uppercase tracking-wider mb-2">Focus Areas</div>
 							<div class="flex flex-wrap gap-2">
-								<span class="px-3 py-1 rounded-full bg-accent-brand/10 text-accent-brand text-sm">Enterprise IT</span>
-								<span class="px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-sm">Training</span>
-								<span class="px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-sm">Education</span>
-								<span class="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">IT Infrastructure</span>
+								<Badge variant="outline" class="bg-accent-brand/10 text-accent-brand">Enterprise IT</Badge>
+								<Badge variant="outline" class="bg-green-500/10 text-green-400">Training</Badge>
+								<Badge variant="outline" class="bg-purple-500/10 text-purple-400">Education</Badge>
+								<Badge variant="outline" class="bg-blue-500/10 text-blue-400">IT Infrastructure</Badge>
 							</div>
 						</div>
 					</div>
