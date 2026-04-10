@@ -80,7 +80,7 @@
               <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
               <div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
               <div class="w-3 h-3 rounded-full bg-green-500/80"></div>
-              <span class="ml-3 text-muted-foreground text-xs font-mono">app.netsandbox.io</span>
+              <span class="ml-3 text-muted-foreground font-pixel text-[0.7rem] tracking-wider">app.netsandbox.io</span>
             </div>
             <div class="space-y-3">
               <div class="flex items-center justify-between p-3 bg-card rounded-lg">
